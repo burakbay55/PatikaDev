@@ -18,7 +18,7 @@ public class BallController : MonoBehaviour
    {
        float movementHorizontal = Input.GetAxis("Horizontal");
        float movementVertical = Input.GetAxis("Vertical");
-
+       //ground check
        if(Input.GetButton("Jump") && isGrounded == true)
        {
            ballRigidbody.AddForce(jumpSpeed*transform.position.y);
