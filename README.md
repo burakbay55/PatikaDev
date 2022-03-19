@@ -1,0 +1,2 @@
+# PatikaDev
+Patika Dev ödev
